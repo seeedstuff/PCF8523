@@ -258,8 +258,8 @@ class PCF8523{
 
 		// void startCounter_1(uint8_t value);
 		void setBatterySwitchover(void);
-	protected:
 		void stop_32768_clkout();
+	protected:		
 		uint8_t clearRtcInterruptFlags();
 		void 	rtcCapSelect(eCAP_SEL value);
 
